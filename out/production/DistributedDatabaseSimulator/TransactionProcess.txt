@@ -1,0 +1,6 @@
+
+Transaction Process
+
+Starts
+Spawns Children - sends to other nodes
+

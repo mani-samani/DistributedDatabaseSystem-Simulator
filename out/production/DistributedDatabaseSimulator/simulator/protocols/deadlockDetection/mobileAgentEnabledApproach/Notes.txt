@@ -1,0 +1,9 @@
+
+Each site keeps its local WFG, it does not send its WFG to other sites.
+It does however, have entries in its local WFG for locks on other sites. -> So when a lock is blocked remotely it must send a message informing the requester this lock is blocked and by which process.
+
+DD starts when an edge becomes too old. -> event is added
+DD occurs locally when an edge is not cleared within a certain timeout time.
+
+Section 4
+ - "Adopted model is the single-resource model, in which a process has only one outgoing request at a time. Hence it can be involved in just one deadlock cycle."

@@ -1,0 +1,12 @@
+LOGGING:true
+SEED:35121
+Topology:HyperCube
+NumPages:400
+ArrivalRate:300
+DDP:AgentDeadlockDetectionProtocol
+DRP:PriorityDeadlockResolution
+PP:EarliestDeadlineFirst
+DetectionInterval:100
+MaxActiveTransactions:10
+AgentsHistoryLength:3
+UpdateRate:0.50
